@@ -2,7 +2,8 @@
 
 ## Summary ## 
 ### About :grey_question: ###
-In this project, I led a team of 4 individuals where we analyzed electricity smart meter readings of 3,852 households in London for the year 2013.
+In this project, I led a team of 4 individuals where we analyzed electricity smart meter readings of 3,852 households in London for the year 2013. A quick overview of this project is illustrated in the image below:
+![](Images/HDC.PNG)
 
 ### Objectives :dart: ### 
 1. To help electricity utility companies reduce production costs.
