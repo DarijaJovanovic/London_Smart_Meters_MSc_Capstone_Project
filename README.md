@@ -1,4 +1,4 @@
-# London Smart Meters (MSc_Capstone_Project) mortar_board:
+# London Smart Meters (MSc_Capstone_Project) :mortar_board:
 
 ## Summary ## 
 ### About :grey_question: ###
