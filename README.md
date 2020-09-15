@@ -153,3 +153,53 @@ Based on our analysis, the section below contains our recommendations on how ele
 
 ## Appendices	##
 ## References	##
+Acorn, 2020. Acorn - The Smarter Consumer Classification | CACI. (online) Acorn.caci.co.uk. Available at: https://acorn.caci.co.uk/  (Accessed 13 May 2020).
+
+Albert, A. and Rajagopal, R., 2013. Smart meter driven segmentation: What your consumption says about you. IEEE Transactions on power systems, 28(4), pp.4019-4030.
+
+Alfares, H.K. and Nazeeruddin, M., 2002. Electric load forecasting: literature survey and classification of methods. International journal of systems science, 33(1), pp.23-34.
+
+Beckel, C., Sadamori, L., Staake, T. and Santini, S., 2014. Revealing household characteristics from smart meter data. Energy, 78, pp.397-410.
+
+Bolton, P., Barber, S. and Hinson, S. (2019). Energy Smart Meters. commonslibrary.parliament.uk. (online) Available at: https://commonslibrary.parliament.uk/research-briefings/cbp-8119/  (Accessed 14 Jun. 2020).
+
+Dunk, A.S., 2004. Product life cycle cost analysis: the impact of customer profiling, competitive advantage, and quality of IS information. Management Accounting Research, 15(4), pp.401-414.
+
+Experian, 2016. The Art Of Customer Profiling Why Understanding Audience Is Important And How To Do It. (online) Experian.co.uk. Available at: https://www.experian.co.uk/assets/marketing-services/white-papers/wp-the-art-of-customer-profiling.pdf  (Accessed 25 June 2020).
+
+Feinberg, E.A. and Genethliou, D., 2005. Load forecasting. In Applied mathematics for restructured electric power systems (pp. 269-285). Springer, Boston, MA.
+
+Gross, G. and Galiana, F.D., 1987. Short-term load forecasting. Proceedings of the IEEE, 75(12), pp.1558-1573.
+
+Gullo, F., Ponti, G., Tagarelli, A., liritano, S., Ruffolo, M. and Labate, D., 2009, September. Low-voltage electricity customer profiling based on load data clustering. In Proceedings of the 2009 International Database Engineering & Applications Symposium (pp. 330-333).
+
+Hippert, H.S., Pedreira, C.E. and Souza, R.C., 2001. Neural networks for short-term load forecasting: A review and evaluation. IEEE Transactions on power systems, 16(1), pp.44-55.
+
+Jokar, P., Arianpoo, N. and Leung, V.C., 2015. Electricity theft detection in AMI using customers’ consumption patterns. IEEE Transactions on Smart Grid, 7(1), pp.216-226.
+
+Liu, F.T., Ting, K.M. and Zhou, Z.H., 2008, December. Isolation forest. In 2008 Eighth IEEE International Conference on Data Mining (pp. 413-422). IEEE.
+
+Nagi, J., Yap, K.S., Tiong, S.K., Ahmed, S.K. and Mohammad, A.M., 2008, November. Detection of abnormalities and electricity theft using genetic support vector machines. In TENCON 2008-2008 IEEE Region 10 Conference (pp. 1-6). IEEE.
+
+Nikovski, D.N., Wang, Z., Esenther, A., Sun, H., Sugiura, K., Muso, T. and Tsuru, K., 2013, July. Smart meter data analysis for power theft detection. In International Workshop on Machine Learning and Data Mining in Pattern Recognition (pp. 379-389). Springer, Berlin, Heidelberg.
+
+Nizar, A.H., Dong, Z.Y. and Zhao, J.H., 2006, June. Load profiling and data mining techniques in electricity deregulated market. In 2006 IEEE Power Engineering Society General Meeting (pp. 7-pp). IEEE.
+
+Ofgem, 2020. Electricity Theft. (online) Ofgem. Available at: https://www.ofgem.gov.uk/electricity/retail-market/market-review-and-reform/electricity-theft  (Accessed 27 June 2020).
+
+Ofgem, n.d. Losses Discretionary Reward Guidance Document. (online) Ofgem.gov.uk. Available at: https://www.ofgem.gov.uk/system/files/docs/2019/09/ldr_tranche_3_guidance_-_tracked_changed_0.pdf  (Accessed 29 June 2020). 
+
+Schmarzo, B., 2018. Hypothesis Development Canvas Version 0.4. (online) Linkedin.com. Available at: https://www.linkedin.com/pulse/hypothesis-development-canvas-version-04-bill-schmarzo  (Accessed 29 June 2020).
+
+Smith, T.B., 2004. Electricity theft: a comparative analysis. Energy policy, 32(18), pp.2067-2076.
+
+Turner, J., 2020. Energy Theft: Switched-On Solutions To The UK Power Sector’S £440M Problem. (online) Power Technology | Energy News and Market Analysis. Available at: https://www.power-technology.com/features/energy-theft-switched-on-solutions-to-the-uk-power-sectors-440m-problem/   (Accessed 3 June 2020). 
+
+UK Power Networks, n.d. Smart Meters And Losses: Best Practice Review. (online) Ukpowernetworks.co.uk. Available at: https://www.ukpowernetworks.co.uk/losses/static/pdfs/smart-meters-and-losses-best-practice-review.bbbb974.pdf  (Accessed 28 June 2020).
+
+Weiss, M., Helfenstein, A., Mattern, F. and Staake, T., 2012, March. Leveraging smart meter data to recognize home appliances. In 2012 IEEE International Conference on Pervasive Computing and Communications (pp. 190-197). IEEE.
+
+Yenradee, P., Pinnoi, A. and Charoenthavornying, A., 2001. Demand forecasting and production planning for highly seasonal demand situations: case study of a pressure container factory. Science Asia, 27(4), pp.271-278.
+
+Zheng, J., Gao, D.W. and Lin, L., 2013, April. Smart meters in smart grid: An overview. In 2013 IEEE Green Technologies Conference (GreenTech) (pp. 57-64). IEEE. 
+
