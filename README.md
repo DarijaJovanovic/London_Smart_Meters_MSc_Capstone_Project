@@ -165,6 +165,7 @@ This dataset contains information about each Acorn (cluster of customers).
 |---------------|-----------|----------|-------------------------------|
 The main category of the information. This dataset contains 15 main categories of customer information.| This represents subcategories of information from each main category. It contains 84 subcategories. For example, Finance is a main category, and household annual income, financial attitudes and saving and investments are subcategories of that main category. | This contains the information that describes each subcategory for each Acorn group. For example, in the age category, the REFERENCE shows the band of ages for each Acorn.| This represents each cluster of customers and their index for each of the REFERENCE elements. There are a total of 17 clusters in this dataset.The values in each Acorn column represent an index. An index of 100 represents the UK median. If we look an index of 125- this is above 100 (UK median), this means that there are more individuals in Acorn A within the age group of 65-74 than the UK average. If we look at an index of 52-this index is below 100 (UK median). This indicates that the number of  individuals in Acorn A aged 25-34 are below the UK median. 
 
+<img src="Images/acorn_det_g.png" width = "800" height = "500">
 
 ### 3.2 Data Understanding ###
 ### 3.3 Data Preparation ###
