@@ -174,8 +174,18 @@ The main category of the information. This dataset contains 15 main categories o
 |------------|------------|-----|--------------|-----|
 Unique code that identifies each individual household.| Electricity usage type of each household. This can be either Fixed or Dynamic.| Acorn group that the household is associated with.|The main category of clusters that the household is associated with.|The block file that each household’s information is contained in. |
 
-<img src="Images/info_h_g.png" width = "800" height = "500">
+<img src="Images/info_h_g.png" width = "800" height = "600">
 
+#### weather_daily_darksky dataset ####
+![](Images/weather.PNG)
+
+
+This dataset contains daily weather information for each day of the year 2013, and contains 32 weather columns. 
+
+#### uk_bank_holidays dataset ####
+![](Images/bh.PNG)
+
+This dataset contains bank holiday information for the year 2013.
 
 
 ### 3.2 Data Understanding ###
