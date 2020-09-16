@@ -99,9 +99,6 @@ In this project, I led a team of 4 individuals where we analyzed electricity sma
 ### Appendices	###
 ### References	###
 
-
-
-
 ## 1.Introduction ##
 In recent years, there has been a paradigm shift in the energy industry as a result of energy conservation requirements, electrical grid infrastructure modernization and the growing size of electricity generation from various sources (Weiss, et al., 2012). As a result of this, many counties have rolled out smart meters (Weiss, et al., 2012). A smart meter is a more advanced energy meter than a traditional meter, and it collects information from consumers’ electrical devices and measures their electrical consumption (Zheng et al., 2013). This vast amount of information provides electricity companies with rich customer insights which helps with the optimization of their energy efficiency programs (Beckel et al., 2014). Additionally, smart meters can aid with tailored demand-response programs which are based on consumers’ electrical consumption patterns (Albert & Rajagopal., 2013). The advancement of smart meters, with their much more frequent energy reading intervals, has made it possible to detect energy theft in more frequent intervals than traditional meters (Nikovski et al., 2013). Furthermore, electricity companies are using smart meter readings to segment their customers with the aim of producing more effective marketing campaigns (Nizar et al., 2006). This helps electricity companies attract new customers and retain their current customers (Nizar et al., 2006).
 ## 2.Background ##
@@ -138,6 +135,8 @@ In order to give our project structure, we used the CRISP-DM methodology. In the
 In this stage, we gained an understanding of the data that the datasets contain in order to understand how each of these datasets could interact. Our data was sourced from [Kaggle](https://www.kaggle.com/jeanmidev/smart-meters-in-london). The section below explains each dataset and their column descriptions.
 The daily_dataset contains the electrical energy readings from 3,852 London Households. These households are segmented using the Acorn tool (Acorn, 2020) developed by CACI Ltd. which is a geodemographic segmentation tool of the UK’s population. 
 
+
+### 3.2 Data Understanding ###
 #### daily_dataset ####
 ![](Images/dd.PNG)
 
@@ -191,7 +190,7 @@ This dataset contains bank holiday information for the year 2013.
 |-------------|----|
 |The date of the bank holiday.|The type of bank holiday.|
 
-### 3.2 Data Understanding ###
+### 3.3 Data Preparation ###
 #### Change 1 ####
 In this stage, we cleaned the data and prepared it so that it can be used for analysis. Most of the data cleaning process was done in Excel and R. In this project we focused on data from the year 2013 as it provided smart meter reading data for all 12 months that year. Due to the large number of rows in each of the datasets, we removed all years except 2013 in order to reduce the processing time when the data is being analysed.
 
@@ -220,9 +219,13 @@ As our analysis is focused on private households, we removed the Household_Ids r
 |stdorToU|	Usage_Type|	Changed name of the column for ease of understanding.|
 |ToU|	Dynamic|	Changed name of value for ease of understanding.|
 |std	|Fixed|	Changed name of value for ease of understanding.|
-
-### 3.3 Data Preparation ###
 ### 3.4 Modelling ###
+In this stage, we built the Seasonal ARIMA model for load forecasting which is related to our first objective. The model was built using Python and Jupyter Notebook. Furthermore, we used the Isolation Forest algorithm for outlier detection.
+Before we could build the electric load forecasting model, there were a few steps we needed to take to get the data in the required format:
+1.	We built a model for the Affluent Achievers community group; therefore, we imported the block files that contained energy readings for Affluent Achievers customers. 
+2.	We concatenated all these block files in one dataframe.
+![](Images/m1.png)
+3.	We needed to remove the effect of outliers on the average energy per day. Average energy per day is our dependent variable and we needed to calculate this. In order to do this, we ran an anomaly detection algorithm as this also contributed to our third objective. We stored the anomaly data in one dataframe and the data that did not contain anomalies in another dataframe. After this, we calculated the average energy per day using the data without the anomalies, and this removed the effect of anomalies on the mean. As average energy per day was our target variable, we merged the average energy per day with the combined data using the date column in each dataset. 
 ### 3.5 Evaluation ###
 
 ## 4.Findings of Analysis ##
