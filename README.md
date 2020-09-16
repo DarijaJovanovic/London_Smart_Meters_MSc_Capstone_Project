@@ -223,9 +223,23 @@ As our analysis is focused on private households, we removed the Household_Ids r
 In this stage, we built the Seasonal ARIMA model for load forecasting which is related to our first objective. The model was built using Python and Jupyter Notebook. Furthermore, we used the Isolation Forest algorithm for outlier detection.
 Before we could build the electric load forecasting model, there were a few steps we needed to take to get the data in the required format:
 1.	We built a model for the Affluent Achievers community group; therefore, we imported the block files that contained energy readings for Affluent Achievers customers. 
+
 2.	We concatenated all these block files in one dataframe.
 ![](Images/m1.png)
+
 3.	We needed to remove the effect of outliers on the average energy per day. Average energy per day is our dependent variable and we needed to calculate this. In order to do this, we ran an anomaly detection algorithm as this also contributed to our third objective. We stored the anomaly data in one dataframe and the data that did not contain anomalies in another dataframe. After this, we calculated the average energy per day using the data without the anomalies, and this removed the effect of anomalies on the mean. As average energy per day was our target variable, we merged the average energy per day with the combined data using the date column in each dataset. 
+![](Images/m2.png)
+![](Images/m3.png)
+
+4.	We merged the combined dataframe with the weather dataframe. We merged the two dataframes based on the date column in both datasets. This allowed us to see the weather readings for each day. 
+
+5.	As the weather data contained many variables, we created a correlation matrix to get an indication on which variables might be useful in our model. This helped us narrow down the number of variables in our model. 
+
+6.	We merged the dataset again with the bank holiday data, in order to see if the smart meter reading date was a bank holiday or not. We did this as we assumed that energy consumption might be higher on days that are bank holidays (e.g. Christmas day). 
+
+In section 4.3.1 we explain how we built the Isolation Forest algorithm. 
+
+
 ### 3.5 Evaluation ###
 
 ## 4.Findings of Analysis ##
