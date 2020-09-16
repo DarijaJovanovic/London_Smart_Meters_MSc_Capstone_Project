@@ -131,22 +131,7 @@ In order to give our project structure, we used the CRISP-DM methodology. In the
 ### Tools used in this project ### 
 
 
- <img src="Images/Excel.png" width = "50" height = "50"> <img src="Images/Word.png" width = "50" height = "50">  <img src="Images/Python.jpg" width = "50" height = "50"> <img src="Images/Jupyter_Notebook.png" width = "50" height = "50"> <img src="Images/R.png" width = "50" height = "50"> <img src="Images/Tableau.jpg" width = "60" height = "60"> <img src="Images/Canva.png" width = "50" height = "50"> 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+ <img src="Images/Excel.png" width = "50" height = "50"> <img src="Images/Word.png" width = "50" height = "50"> <img src="Images/Python.jpg" width = "50" height = "50"> <img src="Images/Jupyter_Notebook.png" width = "50" height = "50"> <img src="Images/R.png" width = "50" height = "50"> <img src="Images/Tableau.jpg" width = "60" height = "60">   <img src="Images/Canva.png" width = "50" height = "50"> 
 
 
 ### 3.1 Business Understanding ###
