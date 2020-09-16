@@ -137,7 +137,7 @@ In order to give our project structure, we used the CRISP-DM methodology. In the
 
 <img src="Images/Jupyter Notebook.png" width = "50" height = "50">
 
-<img src="Images/Tableau.png" width = "50" height = "50">
+<img src="Images/Tableau.jpg" width = "50" height = "50">
 
 <img src="Images/Canva.png" width = "50" height = "50">
 
