@@ -187,8 +187,40 @@ This dataset contains daily weather information for each day of the year 2013, a
 
 This dataset contains bank holiday information for the year 2013.
 
+|Bank holidays|Type|
+|-------------|----|
+|The date of the bank holiday.|The type of bank holiday.|
 
 ### 3.2 Data Understanding ###
+#### Change 1 ####
+In this stage, we cleaned the data and prepared it so that it can be used for analysis. Most of the data cleaning process was done in Excel and R. In this project we focused on data from the year 2013 as it provided smart meter reading data for all 12 months that year. Due to the large number of rows in each of the datasets, we removed all years except 2013 in order to reduce the processing time when the data is being analysed.
+
+#### Change 2 ####
+When analysing the blocks of households from the hhblock_dataset and daily_dataset, we assumed that each block number would contain the same Household_Id numbers. For example, we assumed that block_0 in the hhblock_dataset and daily_dataset would contain the same Household_Id numbers. However, when inspecting the data, we noticed that the majority of Household_Ids were present in the two datasets, however, some had extra Household_Ids that were not present in both datasets. Therefore, we decided to remove the Household_Ids that were not present in both of the datasets in order to ensure consistency. 
+
+#### Change 3 ####
+As our analysis is focused on private households, we removed the Household_Ids related to Acorn R as this contains non-private households.
+
+*Dataset Changes:*
+
+#### daily_dataset: ####
+|Original Name| Changed Name| Description|
+|-------------|-------------|------------|
+|LCLid| Household_Id| Changed name of the column for ease of understanding.|
+
+#### hh_block dataset: ####
+|Original Name| Changed Name| Description|
+|-------------|-------------|------------|
+|LCLid| Household_Id| Changed name of the column for ease of understanding.|
+
+#### informations_households_dataset: ####
+|Original Name| Changed Name| Description|
+|-------------|-------------|------------|
+|LCLid| Household_Id| Changed name of the column for ease of understanding.|
+|stdorToU|	Usage_Type|	Changed name of the column for ease of understanding.|
+|ToU|	Dynamic|	Changed name of value for ease of understanding.|
+|std	|Fixed|	Changed name of value for ease of understanding.|
+
 ### 3.3 Data Preparation ###
 ### 3.4 Modelling ###
 ### 3.5 Evaluation ###
@@ -199,7 +231,7 @@ This dataset contains bank holiday information for the year 2013.
 #### 4.1.2 Model Evaluation	####
 ### 4.2 Objective 2-Customer Profiling	###
 #### 4.2.1 Lavish Lifestyles-Acorn A	####
-The majority of individuals in this customer group are part of the elderly population and are aged between 50-75+. They are the highest income earners of all the customer profile groups and earn annual salaries of £60k-£100k+. Most of these individuals reside in detached houses with a household size of 2-5+ people. Their occupations range from housewives, professionals, self-employed, directors/managers or retired individuals.  They prefer to be contacted by email or mail. During winter, their peak electricity demand time from Monday-Friday is 5pm-10pm and their critical demand time is 6pm-9pm. On Saturdays and Sundays in the winter period, their peak electricity demand is from 9am-10pm, and their critical demand time is 6pm-9pm. 
+The majority of individuals in this customer group are part of the elderly population and are aged between 50-75+. They are the highest income earners of all the customer profile groups and earn annual salaries of £60k-£100k+. Most of these individuals reside in detached houses with a household size of 2-5+ people. Their occupations range from housewives, professionals, self-employed, directors/managers or retired indi viduals.  They prefer to be contacted by email or mail. During winter, their peak electricity demand time from Monday-Friday is 5pm-10pm and their critical demand time is 6pm-9pm. On Saturdays and Sundays in the winter period, their peak electricity demand is from 9am-10pm, and their critical demand time is 6pm-9pm. 
 #### 4.2.2 City Sophisticates-Acorn D ####
 Individuals in this customer group are aged between 25-34. They are also the top income earners and they earn an annual income of £60k-£100k+. Most of these individuals reside in flats or maisonettes with a household size of 3-4 people. Their occupation is typically professional or director/managerial.  They prefer to be contacted by mail. Their peak demand time in winter from Monday to Friday is 5pm-11pm and their critical demand time is 7pm-9pm. Their peak demand time on Saturdays and Sundays during the winter period is in blocks between 5pm-12am or 9am-12am. Critical demand time in winter on Saturdays and Sundays is 7pm-9pm. 
 #### 4.2.3 Successful Suburbs-Acorn G ####
