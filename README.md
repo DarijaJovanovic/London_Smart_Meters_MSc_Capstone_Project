@@ -138,6 +138,33 @@ In order to give our project structure, we used the CRISP-DM methodology. In the
 In this stage, we gained an understanding of the data that the datasets contain in order to understand how each of these datasets could interact. Our data was sourced from [Kaggle](https://www.kaggle.com/jeanmidev/smart-meters-in-london). The section below explains each dataset and their column descriptions.
 The daily_dataset contains the electrical energy readings from 3,852 London Households. These households are segmented using the Acorn tool (Acorn, 2020) developed by CACI Ltd. which is a geodemographic segmentation tool of the UK’s population. 
 
+#### daily_dataset ####
+![](Images/dd.PNG)
+
+The daily_dataset files contain 111 csv files and each file represents a block of households. The screenshot above shows the daily_dataset files of the first block of households. This dataset contains the summarised energy readings for each household for each day of the year 2013. 
+
+| Household_Id | day | energy_median | energy_mean | energy_max | energy_count | energy_std | energy_sum| energy_min|
+|--------------|-----|---------------|-------------|------------|--------------|------------|-----------|-----------|
+|Unique code that identifies each individual household.| The date of the recorded smart meter readings.| The median energy per day.| The mean energy per day.| The maximum 30 min energy reading.| The number of energy readings taken that day. An energy count of 48 means that the energy readings were taken every 30 mins that day.| The standard deviation of the energy readings.| The total energy used that day.| The minimum 30 min energy reading. |
+
+#### hhblock_dataset ####
+![](Images/hhb.PNG)
+
+The hhblock_dataset contains 111 csv files where each file represents a block of households. This dataset consists of half hourly electricity readings of each household for each day of the year 2013. 
+
+| Household_Id| day| hh_0, hh_1, hh_2,etc|
+|-------------|----|-------------------|
+|Unique code that identifies each individual household.| The date of the recorded smart meter readings.| These are 30 min energy readings. This dataset contains 48 30min (24 hour) readings per day (hh_00 – hh_47).|
+
+#### acorn details dataset ####
+![](Images/acorn_det.PNG)
+
+This dataset contains information about each Acorn (cluster of customers).
+
+|MAIN CATEGORIES| CATEGORIES| REFERENCE| ACORN-A, ACORN-B, ACORN-C, etc|
+|---------------|-----------|----------|-------------------------------|
+The main category of the information. This dataset contains 15 main categories of customer information. ![](Images/main_categories.PNG)|
+
 ### 3.2 Data Understanding ###
 ### 3.3 Data Preparation ###
 ### 3.4 Modelling ###
@@ -153,6 +180,7 @@ The majority of individuals in this customer group are part of the elderly popul
 #### 4.2.2 City Sophisticates-Acorn D ####
 Individuals in this customer group are aged between 25-34. They are also the top income earners and they earn an annual income of £60k-£100k+. Most of these individuals reside in flats or maisonettes with a household size of 3-4 people. Their occupation is typically professional or director/managerial.  They prefer to be contacted by mail. Their peak demand time in winter from Monday to Friday is 5pm-11pm and their critical demand time is 7pm-9pm. Their peak demand time on Saturdays and Sundays during the winter period is in blocks between 5pm-12am or 9am-12am. Critical demand time in winter on Saturdays and Sundays is 7pm-9pm. 
 #### 4.2.3 Successful Suburbs-Acorn G ####
+
 Individuals in this customer group are aged between 50-74. They are in the mid income bracket and earn an annual income of £40,000-£100,000. They reside in detached houses with a household size of 2-5+ people. Their occupations range from professional, public sector, office worker or shop worker. They prefer to be contacted by mail. Their peak demand time from Monday to Friday in winter is 5pm-10pm with a critical demand time of 6pm to 8pm. Their peak demand on Saturday and Sunday during the winter period is between 8am-11pm and 5pm-11pm. There is no critical demand time during weekends for this group. 
 #### 4.2.4 Student Life-Acorn K ####
 These customers are aged between 19-24. They are low income earners and earn an annual income of £0-£40,000. They live in flats or maisonettes with a household size of 5+ people. They are students or unemployed. They prefer to be contacted by in-person visits or mail. During winter, their peak demand time from Monday to Friday is 5pm-10pm with a critical demand time between 6pm-8pm. Their peak demand time on Saturday and Sunday during winter months is 9am-11pm with a critical demand time between 6pm-8pm.  
