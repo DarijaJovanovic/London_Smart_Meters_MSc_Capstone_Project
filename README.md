@@ -135,6 +135,9 @@ In order to give our project structure, we used the CRISP-DM methodology. In the
 
 
 ### 3.1 Business Understanding ###
+In this stage, we gained an understanding of the data that the datasets contain in order to understand how each of these datasets could interact. Our data was sourced from [Kaggle](https://www.kaggle.com/jeanmidev/smart-meters-in-london). The section below explains each dataset and their column descriptions.
+The daily_dataset contains the electrical energy readings from 3,852 London Households. These households are segmented using the Acorn tool (Acorn, 2020) developed by CACI Ltd. which is a geodemographic segmentation tool of the UK’s population. 
+
 ### 3.2 Data Understanding ###
 ### 3.3 Data Preparation ###
 ### 3.4 Modelling ###
