@@ -228,8 +228,8 @@ Before we could build the electric load forecasting model, there were a few step
 ![](Images/m1.png)
 
 3.	We needed to remove the effect of outliers on the average energy per day. Average energy per day is our dependent variable and we needed to calculate this. In order to do this, we ran an anomaly detection algorithm as this also contributed to our third objective. We stored the anomaly data in one dataframe and the data that did not contain anomalies in another dataframe. After this, we calculated the average energy per day using the data without the anomalies, and this removed the effect of anomalies on the mean. As average energy per day was our target variable, we merged the average energy per day with the combined data using the date column in each dataset. 
-![](Images/m2.png)
-![](Images/m3.png)
+![](Images/m2.PNG)
+![](Images/m3.PNG)
 
 4.	We merged the combined dataframe with the weather dataframe. We merged the two dataframes based on the date column in both datasets. This allowed us to see the weather readings for each day. 
 
@@ -241,6 +241,7 @@ In section 4.3.1 we explain how we built the Isolation Forest algorithm.
 
 
 ### 3.5 Evaluation ###
+In section 4.1.2 the model is evaluated. 
 
 ## 4.Findings of Analysis ##
 ### 4.1 Objective 1-Reduce Production Costs	###
