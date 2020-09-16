@@ -163,7 +163,7 @@ This dataset contains information about each Acorn (cluster of customers).
 
 |MAIN CATEGORIES| CATEGORIES| REFERENCE| ACORN-A, ACORN-B, ACORN-C, etc|
 |---------------|-----------|----------|-------------------------------|
-The main category of the information. This dataset contains 15 main categories of customer information. ![](Images/main_categories.PNG)|
+The main category of the information. This dataset contains 15 main categories of customer information. <img src="Images/main_categories.PNG" width = "100" height = "200">
 
 ### 3.2 Data Understanding ###
 ### 3.3 Data Preparation ###
