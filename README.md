@@ -167,6 +167,17 @@ The main category of the information. This dataset contains 15 main categories o
 
 <img src="Images/acorn_det_g.png" width = "800" height = "500">
 
+#### informations_households dataset ####
+![](Images/info_h.PNG)
+
+|Household_Id| Usage_Type |Acorn| Acorn grouped| file|
+|------------|------------|-----|--------------|-----|
+Unique code that identifies each individual household.| Electricity usage type of each household. This can be either Fixed or Dynamic.| Acorn group that the household is associated with.|The main category of clusters that the household is associated with.|The block file that each household’s information is contained in. |
+
+<img src="Images/info_h_g.png" width = "800" height = "500">
+
+
+
 ### 3.2 Data Understanding ###
 ### 3.3 Data Preparation ###
 ### 3.4 Modelling ###
