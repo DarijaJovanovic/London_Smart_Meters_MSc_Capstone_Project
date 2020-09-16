@@ -126,6 +126,21 @@ Using our smart meter data, we created an anomaly detection algorithm using the 
 ## 3.Analytical Methodology ## 
 In order to give our project structure, we used the CRISP-DM methodology. In the section below, we outline the activities we did in each stage of the methodology. 
 
+<img src="Images/CRISP-DM.png" width = "500" height = "500">
+
+### Tools used in this project ### 
+<img src="Images/Excel.png" width = "50" height = "50">
+
+<img src="Images/Word.png" width = "50" height = "50">
+
+<img src="Images/Python.png" width = "50" height = "50">
+
+<img src="Images/Jupyter Notebook.png" width = "50" height = "50">
+
+<img src="Images/Tableau.png" width = "50" height = "50">
+
+<img src="Images/Canva.png" width = "50" height = "50">
+
 ### 3.1 Business Understanding ###
 ### 3.2 Data Understanding ###
 ### 3.3 Data Preparation ###
