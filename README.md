@@ -124,6 +124,7 @@ In 2014, Baltimore Gas and Electric Company launched complex algorithms across t
 Using our smart meter data, we created an anomaly detection algorithm using the Isolation Forest algorithm, to detect potential cases of electricity theft. This analysis can help electricity companies detect potential cases of electricity theft in order to reduce the economic impact of electricity theft on their company.  In section 5.3 we further discuss the benefits of reducing electricity theft.
 
 ## 3.Analytical Methodology ## 
+In order to give our project structure, we used the CRISP-DM methodology. In the section below, we outline the activities we did in each stage of the methodology. 
 
 ### 3.1 Business Understanding ###
 ### 3.2 Data Understanding ###
