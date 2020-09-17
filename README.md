@@ -277,6 +277,12 @@ When building the model, we created an 80% training and 20% testing split among 
 •	Furthermore, the MAE (0.1) and RMSE (0.57) are both low. RMSE of 0.57 indicates an approximate 0.57-kilowatt error per day.
 
 ### 4.2 Objective 2-Customer Profiling	###
+<img src="Images/acorn_a.PNG" width = "300" height = "600"> <img src="Images/acorn_d.PNG" width = "300" height = "600"> <img src="Images/acorn_g.PNG" width = "300" height = "600"> <img src="Images/acorn_k.PNG" width = "300" height = "600"> <img src="Images/acorn_o.PNG" width = "300" height = "600">
+
+<img src="Images/acorn_a.PNG" width = "300" height = "600">
+
+
+
 #### 4.2.1 Lavish Lifestyles-Acorn A	####
 The majority of individuals in this customer group are part of the elderly population and are aged between 50-75+. They are the highest income earners of all the customer profile groups and earn annual salaries of £60k-£100k+. Most of these individuals reside in detached houses with a household size of 2-5+ people. Their occupations range from housewives, professionals, self-employed, directors/managers or retired indi viduals.  They prefer to be contacted by email or mail. During winter, their peak electricity demand time from Monday-Friday is 5pm-10pm and their critical demand time is 6pm-9pm. On Saturdays and Sundays in the winter period, their peak electricity demand is from 9am-10pm, and their critical demand time is 6pm-9pm. 
 #### 4.2.2 City Sophisticates-Acorn D ####
