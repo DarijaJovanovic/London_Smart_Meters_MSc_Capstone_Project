@@ -300,7 +300,54 @@ These customers are aged between 25-34. They are low income earners and earn an 
 
 ### 4.3 Objective 3-Detect Possible Cases of Electricity Theft	##
 #### 4.3.1 Building Anomaly Detection Algorithm ####
+In order to detect outliers in our dataset, we used the Isolation Forest algorithm (unsupervised learning algorithm). While other anomaly detection algorithms were available, we chose Isolation Forest as this supported univariate anomaly detection. We ran this algorithm for each community group and we chose the total energy per day for each household (energy_sum) as the target variable for anomaly detection.
+This algorithm identifies anomalies by building an ensemble of isolation trees for the data, and anomalies are classified as those observations with short average path lengths on the isolation trees (Liu et al., 2008). 
+
+<img src="Images/add1.png" width = "600" height = "350"> (Liu et al.,2008)
+
+Anomalies are more likely to be isolated than normal points (Liu et al., 2008). Figure 7 shows that a normal observation needs 12 random partitions to be isolated, while Figure 8 shows that an anomaly only needs 4 partitions to be isolated (Liu et al., 2008). The path length of a point is calculated using the number of edges that the point crosses through an isolation tree from the root node until the it reaches the external node (Liu et al., 2008). When using any anomaly detection algorithm, an anomaly score needs to be calculated (Liu et al., 2008). In Isolation Forest, an anomaly score is calculated using the number of partitions needed to isolate an observation (Liu et al., 2008), and this is how the decision_function() that we used in our algorithm to calculate the anomaly score works. The more partitions the observation needs, the closer the anomaly score is to a normal observation score. The less partitions that are needed to isolate an observation, the closer the anomaly score will be to an anomaly score. In the Liu et al. (2008) paper, an anomaly score ranges from 1 to -1:
+
+•	If the anomaly score of an observation is close to 1, then it is definitely an anomaly.
+
+•	If the observations’s anomaly score is significantly lower than 0.5 then it is safe to regard it as a normal observation.
+
+•	If all the observations have an anomaly score of 0.5, then the data does not have a distinct anomaly.
+
+However, the Scikit-Learn’s Isolation Forest algorithm returns an anomaly score between -0.5 and 0.5, with -0.5 being the most anomalous. Therefore, our anomaly scores are within this range. 
+
+Figure 9 Shows that the energy sum column contains numerous outliers. We used the Isolation Forest algorithm to store and analyze the anomalies.
+
+<img src="Images/bp.png" width = "800" height = "450"> 
+
+The algorithm we used for the Affluent Achievers community group is shown Figure 10:
+
+<img src="Images/algo.PNG">
+
+After this, we created a column for the anomaly score and we created another column which indicates whether the household’s energy consumption on that date was an anomaly:
+<img src="Images/algo2.PNG" width = "800" height = "450">
+
+If a row in the Anomaly column has a 1, that means the household’s energy consumption on that date was not an anomaly, and -1 means it was an anomaly. After this, we stored all the rows that were an anomaly in a variable:
+<img src="Images/algo3.PNG" width = "512" height = "80">
 #### 4.3.2 Anomaly Detection Results	####
+Around 10% of the rows in each community group were identified as anomalies. Furthermore, we considered the class of the anomaly and we categorized them into two types-overconsumption anomalies and underconsumption anomalies. How we classified them is explained in Appendix D. 
+
+<img src="Images/over.PNG">
+<img src="Images/under.PNG">
+
+Our analysis showed that 77% are overconsumption anomalies and 23% are underconsumption anomalies. We found that 11%-31% of households across all community groups had households whose energy consumption was an overconsumption anomaly for 21 days within a month, with Financially Stretched having the lowest percentage and Affluent Achievers and Rising Prosperity having the highest percentage.  Furthermore, across all community groups, 51%-58% of households’ energy consumption per day was an overconsumption anomaly for 22-28 days per month. Additionally, 11%-38% of households within the community groups had households whose energy consumption was an overconsumption anomaly for 29-30 days within a month, with Affluent Achievers having the lowest percentage and Financially Stretched having the highest percentage.
+
+In the underconsumption anomalies, we found that 5%-50% of households across all community groups had households whose energy consumption was an underconsumption anomaly for 21 days within a month, with Financially Stretched having the lowest percentage and Affluent Achievers having the highest percentage. 47%-65% of households’ energy consumption per day was an underconsumption anomaly for 22-28 days per month. Furthermore, across all community groups, 0%-41% of households’ energy consumption per day was an underconsumption anomaly for 29-31 days per month, with Affluent Achievers having the lowest percentage and Financially Stretched having the highest percentage.
+In our next analysis, we took a sample of the anomalies and we investigated each household and checked how many days per month their energy consumption was an anomaly and how many months each household featured in:
+
+<img src="Images/excel_algo.PNG">
+
+The image above was created to help electricity companies prioritise which households should be investigated first. The colour scheme is used to describe the critical level of the household. Households that should be investigated first are given a critical level of 5 and households that should be investigated last are given a critical level of 1. The critical level is determined by the number of days per month that the household’s energy consumption per day was an anomaly and the number of months that the household featured in. 
+
+If we take ‘MAC004179’ as an example, we can see that the household’s energy consumption had anomalies for 11 months, and for each day of those 11 months the household’s energy consumption per day was an anomaly. This household definitely looks suspicious, and we will further investigate this household by taking a look at their energy readings:
+
+<img src="Images/excel_algo2.PNG">
+
+In the images above, we can see that this household’s maximum energy per day was 277.97 kilowatts and this was recorded on the 18/02/2013. Also, the household’s minimum energy consumption was 61.95 kilowatts and this was recorded on the 25/04/2013. Furthermore, when the average energy per day is calculated for this household, the result is 101.35 kilowatts per day. These daily energy readings are very high and as this household featured in 11 months and its energy readings for each day of those 11 months was an anomaly, this household should be investigated on site. 
 
 ## 5.Discussion	##
 ### 5.1 Objective 1-Reduce Production Costs	###
