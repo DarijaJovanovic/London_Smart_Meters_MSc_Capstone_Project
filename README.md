@@ -246,7 +246,36 @@ In section 4.1.2 the model is evaluated.
 ## 4.Findings of Analysis ##
 ### 4.1 Objective 1-Reduce Production Costs	###
 #### 4.1.1 Model Building	####
+Before we could start modelling, we needed to check if the data was stationary or not and we used the Dickey Fuller test to test this.
+H0: Non-stationary time series 
+H1: Stationary time series 
+
+`Test Statistic` -1.709769
+
+`p-value`         0.426086
+
+In the first Dickey Fuller test, the p-value was 0.42. As the p-value is greater than 0.05, we accepted the null-hypothesis and rejected the alternative hypothesis. This indicated that the time-series was non-stationary. In order to run a time series prediction, we need to turn the non-stationary time series into a stationary time series. Therefore, we applied differencing in order to turn the time-series data into a stationary time series.
+
+`Test Statistic` -4.589620
+
+`p-value`         0.000135
+
+After applying differencing and running the test again, we got a p-value of 0.00 and as this was less than 0.5, we rejected the null hypothesis and accepted the alternative hypothesis. This indicated that the time series was stationary. As the time series was stationary, we proceeded to build the model. 
+
+When building the model, we created an 80% training and 20% testing split among the data. The dataframe had 365 rows as we got the average energy per day for an entire year. We had 268 rows for training and 67 rows for testing. In the model, average_energy is the dependent variable and the weather variables in the image below are the predictor variables. 
+
+<img src="Images/model.png" width = "500" height = "300">
+
 #### 4.1.2 Model Evaluation	####
+`Mean Absolute Percentage Error (MAPE)`  3.34
+
+`Mean Absolute Error (MAE)`              0.1
+
+`RMSE`                                   0.57
+
+•	MAPE of 3.34 indicates that the model has a 96.66 accuracy at predicting the next few observations.
+•	Furthermore, the MAE (0.1) and RMSE (0.57) are both low. RMSE of 0.57 indicates an approximate 0.57-kilowatt error per day.
+
 ### 4.2 Objective 2-Customer Profiling	###
 #### 4.2.1 Lavish Lifestyles-Acorn A	####
 The majority of individuals in this customer group are part of the elderly population and are aged between 50-75+. They are the highest income earners of all the customer profile groups and earn annual salaries of £60k-£100k+. Most of these individuals reside in detached houses with a household size of 2-5+ people. Their occupations range from housewives, professionals, self-employed, directors/managers or retired indi viduals.  They prefer to be contacted by email or mail. During winter, their peak electricity demand time from Monday-Friday is 5pm-10pm and their critical demand time is 6pm-9pm. On Saturdays and Sundays in the winter period, their peak electricity demand is from 9am-10pm, and their critical demand time is 6pm-9pm. 
