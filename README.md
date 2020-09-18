@@ -396,6 +396,54 @@ Based on our analysis, the section below contains our recommendations on how ele
 
 
 ## Appendices	##
+### Appendix A ### 
+<img src="Images/1a.PNG">
+<img src="Images/2a.PNG">
+<img src="Images/3a.PNG">
+<img src="Images/4a.PNG">
+<img src="Images/5a.PNG">
+<img src="Images/6a.PNG">
+<img src="Images/7a.PNG">
+<img src="Images/8a.PNG">
+<img src="Images/9a.PNG">
+<img src="Images/10a.PNG">
+<img src="Images/11a.PNG">
+<img src="Images/12a.PNG">
+
+### Appendix B ###
+<img src="Images/13b.PNG">
+<img src="Images/14b.PNG">
+<img src="Images/15b.PNG">
+<img src="Images/16b.PNG">
+<img src="Images/17b.PNG">
+<img src="Images/18b.PNG">
+<img src="Images/19b.PNG">
+<img src="Images/20b.PNG">
+<img src="Images/21b.PNG">
+<img src="Images/22b.PNG">
+<img src="Images/23b.PNG">
+<img src="Images/24b.PNG">
+<img src="Images/25b.PNG">
+<img src="Images/26b.PNG">
+<img src="Images/27b.PNG">
+<img src="Images/28b.PNG">
+<img src="Images/29b.PNG">
+<img src="Images/30b.PNG">
+<img src="Images/31b.PNG">
+<img src="Images/32b.PNG">
+<img src="Images/33b.PNG">
+<img src="Images/34b.PNG">
+<img src="Images/35b.PNG">
+<img src="Images/36b.PNG">
+
+### Appendix C ###
+<img src="Images/32c.PNG">
+<img src="Images/33c.PNG">
+<img src="Images/34c.PNG">
+<img src="Images/35c.PNG">
+<img src="Images/36c.PNG">
+
+
 ## References	##
 Acorn, 2020. Acorn - The Smarter Consumer Classification | CACI. (online) Acorn.caci.co.uk. Available at: https://acorn.caci.co.uk/  (Accessed 13 May 2020).
 
