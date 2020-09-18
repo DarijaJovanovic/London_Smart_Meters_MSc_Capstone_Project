@@ -1,6 +1,7 @@
 # London Smart Meters (MSc Capstone Project) :mortar_board:
 
 ## Summary ## 
+_______________________________________________________________________________________________________________________________________________________________________________
 ### About :grey_question: ###
 In this project, I led a team of 4 individuals where we analyzed electricity smart meter readings of 3,852 households in London for the year 2013. A quick overview of this project is illustrated in the image below:
 ![](Images/HDC.PNG)
@@ -55,6 +56,7 @@ In this project, I led a team of 4 individuals where we analyzed electricity sma
 • In the underconsumption anomalies, 5%-50% of households across all community groups had households whose energy consumption was an underconsumption anomaly for 21 days within a month, with Financially Stretched having the lowest percentage and Affluent Achievers having the highest percentage.
 
 • 47%-65% of households’ energy consumption per day was an underconsumption anomaly for 22-28 days per month. Furthermore, across all community groups, 0%-41% of households’ energy consumption per day was an underconsumption anomaly for 29-31 days per month, with Affluent Achievers having the lowest percentage and Financially Stretched having the highest percentage.
+_________________________________________________________________________________________________________________________________________________________________________________
 
 ## Table of Contents ##
 ### 1. Introduction	###
