@@ -413,7 +413,7 @@ Based on our analysis, the section below contains our recommendations on how ele
 ### Appendix B ###
 <img src="Images/13b.PNG">
 <img src="Images/14b.PNG">
-<img src="/Images/Acorn%20D%20Heatmap%203.png.">
+<img src="/Images/Acorn%20D%20Heatmap%203.png">
 
 <img src="Images/15b.PNG">
 <img src="Images/16b.PNG">
@@ -442,7 +442,7 @@ Based on our analysis, the section below contains our recommendations on how ele
 <img src="Images/35b.PNG">
 <img src="Images/36b.PNG">
 
-<img src="/Images/Acorn%20D%20Heatmap%203.png">
+<img src="/Images/Energy%20per%20Hour.png">
 
 ### Appendix C ###
 <img src="Images/32c.PNG">
