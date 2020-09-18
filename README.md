@@ -443,6 +443,16 @@ Based on our analysis, the section below contains our recommendations on how ele
 <img src="Images/35c.PNG">
 <img src="Images/36c.PNG">
 
+How we classified overconsumption and underconsumption anomalies:
+
+•	When we exported our anomaly data in excel, we created a new column in excel called Anomaly Class.
+
+•	We created an IF statement to calculate if the observation was an overconsumption or underconsumption anomaly.
+
+•	If the anomaly consumption was greater than the average energy consumption it was classified as an overconsumption anomaly, and if the anomaly consumption was less than the average consumption for that day it was classified as an underconsumption anomaly. 
+
+<img src="Images/37c.PNG">
+
 
 ## References	##
 Acorn, 2020. Acorn - The Smarter Consumer Classification | CACI. (online) Acorn.caci.co.uk. Available at: https://acorn.caci.co.uk/  (Accessed 13 May 2020).
