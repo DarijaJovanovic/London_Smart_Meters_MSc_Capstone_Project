@@ -411,6 +411,19 @@ Based on our analysis, the section below contains our recommendations on how ele
 <img src="Images/12a.PNG">
 
 ### Appendix B ###
+<img src="Images/aage.PNG">
+<img src="Images/ainc.PNG">
+<img src="Images/ahouse.PNG">
+<img src="Images/ahousesize.PNG">
+<img src="Images/acontact.PNG">
+<img src="Images/aoccu.PNG">
+<img src="Images/ahm1.PNG">
+
+<img src="Images/dage.PNG">
+<img src="Images/dinc.PNG">
+<img src="Images/dhouse.PNG">
+<img src="Images/dhousesize.PNG">
+<img src="Images/dcontact.PNG">
 <img src="Images/13b.PNG">
 <img src="Images/14b.PNG">
 <img src="/Images/Acorn%20D%20Heatmap%203.png">
