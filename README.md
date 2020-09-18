@@ -64,7 +64,6 @@ In this project, I led a team of 4 individuals where we analyzed electricity sma
 ### 2. Background ###	
 ### 3. Analytical Methodology	####
 ### 4. Findings of Analysis	###
-#### 4.3 Objective 3-Detect Possible Cases of Electricity Theft	####
 ### 5. Discussion	###
 ### 6. Conclusions and Recommendations	###
 ### Appendices	###
