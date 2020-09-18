@@ -63,42 +63,10 @@ In this project, I led a team of 4 individuals where we analyzed electricity sma
 ### 1. Introduction	###
 ### 2. Background ###	
 ### 3. Analytical Methodology	####
-
- 3.1 Business Understanding
- 
- 3.2 Data Understanding	
- 
- 3.3 Data Preparation	
- 
- 3.4 Modelling	
- 
-3.5 Evaluation	
 ### 4. Findings of Analysis	###
- #### 4.1 Objective 1-Reduce Production Costs	####
-  4.1.1 Model Building	
-  
-  4.1.2 Model Evaluation	
-#### 4.2 Objective 2-Customer Profiling	####
-  4.2.1 Lavish Lifestyles-Acorn A	
-  
-  4.2.2 City Sophisticates-Acorn D	
-  
-  4.2.3 Successful Suburbs-Acorn G	
-  
-  4.2.4 Student Life-Acorn K	
-  
-  4.3.5 Young Hardship-Acorn O	
 #### 4.3 Objective 3-Detect Possible Cases of Electricity Theft	####
-  4.3.1 Building Anomaly Detection Algorithm	
-  
-  4.3.2 Anomaly Detection Results	
 ### 5. Discussion	###
-  5.1 Objective 1-Reduce Production Costs	
-  
-  5.2 Objective 2-Customer Profiling	
-  
-  5.3 Objective 3-Detect Possible Cases of Electricity Theft	
-### 7. Conclusions and Recommendations	###
+### 6. Conclusions and Recommendations	###
 ### Appendices	###
 ### References	###
 
@@ -383,7 +351,7 @@ Electricity theft poses significant losses for electricity utility companies, wh
 •	Possibility of winning funds from the LDR. 
 
 
-## 7.Conclusions and Recommendations ##
+## 6.Conclusions and Recommendations ##
 In this report, we analysed electrical smart meter readings of 3,852 households in London for the year 2013. For our first objective, we built a Seasonal ARIMA model to forecast daily electricity load. Yenradee et al. (2001) applied demand forecasting to a pressure container company in Thailand and this resulted in savings of 536,94 Baht/13.2% per year. In our case, we applied this to the smart meter data with the aim of helping electricity utility companies predict their daily demand in order to reduce production costs. Additionally, we discussed how our load forecasting model could help electricity companies forecast their demand and reduce costs. For example, Gross and Galiana (1987) mentioned that load forecasting helps utility companies improve their basic generation scheduling, as scarce resources such as fuel can be used more efficiently, because it gives system dispatchers timely information in order to operate the system in an economic and reliable manner. Furthermore, while our model was created to forecast electricity load, this can be applied to almost any industry to predict demand.
 In our second objective, we analysed customer data with the aid of the Acorn consumer segmentation tool in order to better understand the customers associated with the smart meter data. Once we analysed the data, we built customer profiles for each customer segment. In the case of Experian (2016), customer segmentation data was used to help an online travel company create an effective marketing message tailored to each customer segment. Furthermore, we discussed the various ways that our customer segmentation insights could help electricity companies. Nizar et al. (2006) mentioned that customer profiling helps companies create effective marketing methods, attract or retain customers and create new products and services. Additionally, Gullo et al. (2009) stated that it aids with the co-creating of value and the recovery of electricity cost within a realistic time frame. Our customer data analysis can be applied in any industry to aid with customer understanding and the creation of effective marketing methods. 
 In our third objective, we created an anomaly detection algorithm to detect possible cases of electricity theft. The Baltimore Gas and Electric Company generated $2.8 million in economic benefit from verified cases of fraud. Furthermore, Nizar et al. (2006) mentioned that electricity theft causes significant profit and investment losses. As a result of our research and the Baltimore Gas and Electric Company case study, we realized that if electricity companies could reduce cases of electricity theft, it could result in significant economic benefit. Therefore, the importance of this problem led us to create an anomaly detection algorithm that can help electricity companies reduce losses associated with electricity theft. Our analysis showed that 77% of our data were overconsumption anomalies and 23% were underconsumption anomalies. We created a method that electricity companies could use to prioritise which households should be investigated first. We outlined how our anomaly detection insights could help electricity companies reduce electricity theft and gain economic benefit. Our research showed that it helps increase profits, increase investment funds (Nagi et al., 2008) and create competitive prices. Furthermore, it helps UK electricity companies abide by the electricity theft condition added by Ofgem (2020) in relation to electricity theft and potentially earn funds from the LDR. 
