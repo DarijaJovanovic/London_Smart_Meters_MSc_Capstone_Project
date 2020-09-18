@@ -59,6 +59,7 @@ In this project, I led a team of 4 individuals where we analyzed electricity sma
 
 • 47%-65% of households’ energy consumption per day was an underconsumption anomaly for 22-28 days per month. Furthermore, across all community groups, 0%-41% of households’ energy consumption per day was an underconsumption anomaly for 29-31 days per month, with Affluent Achievers having the lowest percentage and Financially Stretched having the highest percentage.
 _________________________________________________________________________________________________________________________________________________________________________________
+</details>
 
 ## Table of Contents ##
 ### 1. Introduction	###
