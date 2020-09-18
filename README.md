@@ -413,6 +413,8 @@ Based on our analysis, the section below contains our recommendations on how ele
 ### Appendix B ###
 <img src="Images/13b.PNG">
 <img src="Images/14b.PNG">
+<img src="/Images/Acorn%20D%20Heatmap%203.png.">
+
 <img src="Images/15b.PNG">
 <img src="Images/16b.PNG">
 <img src="Images/17b.PNG">
@@ -420,6 +422,8 @@ Based on our analysis, the section below contains our recommendations on how ele
 <img src="Images/19b.PNG">
 <img src="Images/20b.PNG">
 <img src="Images/21b.PNG">
+<img src="/Images/Acorn%20G%20Heatmap%203.png">
+
 <img src="Images/22b.PNG">
 <img src="Images/23b.PNG">
 <img src="Images/24b.PNG">
@@ -428,6 +432,8 @@ Based on our analysis, the section below contains our recommendations on how ele
 <img src="Images/27b.PNG">
 <img src="Images/28b.PNG">
 <img src="Images/29b.PNG">
+<img src="/Images/Heat%20Map%203.png">
+
 <img src="Images/30b.PNG">
 <img src="Images/31b.PNG">
 <img src="Images/32b.PNG">
@@ -435,6 +441,8 @@ Based on our analysis, the section below contains our recommendations on how ele
 <img src="Images/34b.PNG">
 <img src="Images/35b.PNG">
 <img src="Images/36b.PNG">
+
+<img src="/Images/Acorn%20D%20Heatmap%203.png">
 
 ### Appendix C ###
 <img src="Images/32c.PNG">
