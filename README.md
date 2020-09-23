@@ -67,7 +67,7 @@ In this project, I led a team of 4 individuals where we analyzed electricity sma
 
 [Background](#background)
 
-[Analytical](#analytical-methodology)
+[Analytical Methodology](#analytical-methodology)
 
 [Findings of Analysis](#findings-of-analysis)
 
