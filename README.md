@@ -252,8 +252,8 @@ When building the model, we created an 80% training and 20% testing split among 
 <img src="Images/Heat%20Map%203.png" width = "1600" height = "900">
 
 When we discuss the customer profiles, we created 2 metrics to describe electricity demand:
-•	Peak demand time: period of high electricity demand (Figure 6-green outline)
-•	Critical demand time: period with the highest electricity demand within the peak demand time (Figure 6-red outline).
+•	Peak demand time: period of high electricity demand.
+•	Critical demand time: period with the highest electricity demand within the peak demand time.
 Furthermore, as there was a total of 17 Acorns across all community groups, we picked one Acorn from each community group and created customer profiles. The visualizations used to create the customer profiles are in Appendix C.
 
 #### 4.2.1 Lavish Lifestyles-Acorn A	####
@@ -275,7 +275,7 @@ This algorithm identifies anomalies by building an ensemble of isolation trees f
 
 <img src="Images/add1.png" width = "600" height = "350"> (Liu et al.,2008)
 
-Anomalies are more likely to be isolated than normal points (Liu et al., 2008). Figure 7 shows that a normal observation needs 12 random partitions to be isolated, while Figure 8 shows that an anomaly only needs 4 partitions to be isolated (Liu et al., 2008). The path length of a point is calculated using the number of edges that the point crosses through an isolation tree from the root node until the it reaches the external node (Liu et al., 2008). When using any anomaly detection algorithm, an anomaly score needs to be calculated (Liu et al., 2008). In Isolation Forest, an anomaly score is calculated using the number of partitions needed to isolate an observation (Liu et al., 2008), and this is how the decision_function() that we used in our algorithm to calculate the anomaly score works. The more partitions the observation needs, the closer the anomaly score is to a normal observation score. The less partitions that are needed to isolate an observation, the closer the anomaly score will be to an anomaly score. In the Liu et al. (2008) paper, an anomaly score ranges from 1 to -1:
+Anomalies are more likely to be isolated than normal points (Liu et al., 2008). The image above shows that a normal observation needs 12 random partitions to be isolated, while an anomaly only needs 4 partitions to be isolated (Liu et al., 2008). The path length of a point is calculated using the number of edges that the point crosses through an isolation tree from the root node until the it reaches the external node (Liu et al., 2008). When using any anomaly detection algorithm, an anomaly score needs to be calculated (Liu et al., 2008). In Isolation Forest, an anomaly score is calculated using the number of partitions needed to isolate an observation (Liu et al., 2008), and this is how the decision_function() that we used in our algorithm to calculate the anomaly score works. The more partitions the observation needs, the closer the anomaly score is to a normal observation score. The less partitions that are needed to isolate an observation, the closer the anomaly score will be to an anomaly score. In the Liu et al. (2008) paper, an anomaly score ranges from 1 to -1:
 
 •	If the anomaly score of an observation is close to 1, then it is definitely an anomaly.
 
@@ -285,11 +285,11 @@ Anomalies are more likely to be isolated than normal points (Liu et al., 2008). 
 
 However, the Scikit-Learn’s Isolation Forest algorithm returns an anomaly score between -0.5 and 0.5, with -0.5 being the most anomalous. Therefore, our anomaly scores are within this range. 
 
-Figure 9 Shows that the energy sum column contains numerous outliers. We used the Isolation Forest algorithm to store and analyze the anomalies.
+The boxplot below shows that the energy sum column contains numerous outliers. We used the Isolation Forest algorithm to store and analyze the anomalies.
 
 <img src="Images/bp.png" width = "800" height = "450"> 
 
-The algorithm we used for the Affluent Achievers community group is shown Figure 10:
+The algorithm we used for the Affluent Achievers community group is shown in the figure below:
 
 <img src="Images/algo.PNG">
 
