@@ -59,7 +59,9 @@ In this project, I led a team of 4 individuals where we analyzed electricity sma
 
 </details>
 
-## Table of Contents ##
+<details>
+  
+  <summary> Table of Contents  </summary>
 ### 1. Introduction	###
 ### 2. Background ###	
 ### 3. Analytical Methodology	####
@@ -68,6 +70,8 @@ In this project, I led a team of 4 individuals where we analyzed electricity sma
 ### 6. Conclusions and Recommendations	###
 ### Appendices	###
 ### References	###
+
+<details>
 
 ## 1.Introduction ##
 In recent years, there has been a paradigm shift in the energy industry as a result of energy conservation requirements, electrical grid infrastructure modernization and the growing size of electricity generation from various sources (Weiss, et al., 2012). As a result of this, many counties have rolled out smart meters (Weiss, et al., 2012). A smart meter is a more advanced energy meter than a traditional meter, and it collects information from consumers’ electrical devices and measures their electrical consumption (Zheng et al., 2013). This vast amount of information provides electricity companies with rich customer insights which helps with the optimization of their energy efficiency programs (Beckel et al., 2014). Additionally, smart meters can aid with tailored demand-response programs which are based on consumers’ electrical consumption patterns (Albert & Rajagopal., 2013). The advancement of smart meters, with their much more frequent energy reading intervals, has made it possible to detect energy theft in more frequent intervals than traditional meters (Nikovski et al., 2013). Furthermore, electricity companies are using smart meter readings to segment their customers with the aim of producing more effective marketing campaigns (Nizar et al., 2006). This helps electricity companies attract new customers and retain their current customers (Nizar et al., 2006).
@@ -84,7 +88,6 @@ An online travel company wanted to identify its customers’ travel preferences 
 
 In our analysis, we used the Acorn consumer classification tool developed by CACI Ltd. as this was easily accessible for us. In our case, we applied the Acorn tool to segment the households associated with our smart meter data. With this data, we built customer profiles. The aim of this analysis is to help electricity companies better understand their customers and their needs. In section 5.2 we discuss how customer profiling can be leveraged by organizations.
  
-
 #### Baltimore Gas and Electric Company ####
 In 2014, Baltimore Gas and Electric Company launched complex algorithms across two million sensors and devices in their territory in order to reduce non-technical losses (UK Power Networks, n.d.). With the aid of their sensors and algorithms, they have identified non-technical losses in the first six months generating $2.8 million in economic benefit from confirmed cases of fraud (UK Power Networks, n.d.). 
  
@@ -234,7 +237,7 @@ After applying differencing and running the test again, we got a p-value of 0.00
 
 When building the model, we created an 80% training and 20% testing split among the data. The dataframe had 365 rows as we got the average energy per day for an entire year. We had 268 rows for training and 67 rows for testing. In the model, average_energy is the dependent variable and the weather variables in the image below are the predictor variables. 
 
-<img src="Images/model.png" width = "500" height = "300">
+<img src="Images/model1.PNG">
 
 #### 4.1.2 Model Evaluation	####
 `Mean Absolute Percentage Error (MAPE)`  3.34
