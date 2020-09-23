@@ -62,6 +62,7 @@ In this project, I led a team of 4 individuals where we analyzed electricity sma
 <details>
   
   <summary> Table of Contents  </summary>
+  
 ### 1. Introduction	###
 ### 2. Background ###	
 ### 3. Analytical Methodology	####
