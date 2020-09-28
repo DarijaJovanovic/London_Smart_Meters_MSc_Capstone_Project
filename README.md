@@ -28,7 +28,7 @@ In this project, I led a team of 4 individuals where we analyzed electricity sma
 
 ### Results Overview :chart_with_upwards_trend: ###
 
-#### Objective 1 ####
+#### Objective 1 #### 
 • The Seasonal ARIMA model produced an MAPE of 3.34 which indicated that the model has a 96.66 accuracy at predicting the next few observations.
 
 • Furthermore, the MAE (0.1) and RMSE (0.57) were both low. RMSE of 0.57 indicated an approximate 0.57-kilowatt error per day.
